@@ -1,0 +1,58 @@
+body {
+  background-color: #E5E5E5;
+  text-align: center;
+}
+
+main {
+  
+}
+
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 75px;
+  text-transform: capitalize;
+}
+
+.adding_topic {
+  background: #FFFFFE;
+  border-radius: 5px;
+  width: 50%;
+  padding: 3%;
+  margin-left: 25%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+input {
+  background-color: #E5E5E5;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+form {
+  text-align: center;
+}
+
+button {
+  background-color: #FAAE2C;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+}
