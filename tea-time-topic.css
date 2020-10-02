@@ -50,9 +50,32 @@ form {
   text-align: center;
 }
 
-button {
+form > button {
   background-color: #FAAE2C;
   padding: 10px;
   border: none;
   border-radius: 2px;
+}
+
+.topic-list {
+  background-color: #FFFFFE;
+  margin-bottom: 1rem;
+  width: 55%;
+  margin-left: 25%;
+}
+
+.archive {
+  background-color: #FFFFFE;
+  border: none;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+}
+.thumb {
+  border-radius: 50%;
+  border: none;
+  background-color: #FAAE2C;
 }
